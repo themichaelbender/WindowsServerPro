@@ -1,0 +1,18 @@
+Diskpart.exe
+Select disk 0
+Clean
+Convert GPT
+Create partition efi size=100
+Format quick FS=FAT32 label="System"
+Assign letter="s"
+Create partition msr size=128
+Create partition primary
+Format quick FS=NTFS label="NanoServer"
+Assign letter="n"
+List volume
+Exit
+
+Dism.exe /apply-image /imagefile:c:\nanoserver1\nanoserver.wim /index:1 /applydir:n:\ 
+
+Bcdboot.exe n:\Windows /s s:
+wpeutil reboot

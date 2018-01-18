@@ -1,0 +1,8 @@
+DistinguishedName,Department,SamAccountName,Name,GivenName,Surname,UserPrincipalName,City,Enabled,ChangePasswordAtLogon
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",Operations,ShawnM,ShawnM,Shawn,Melendez,ShawnM@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",IT,LynneB,LynneB,Lynne,Baxter,LynneB@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",Development,ClaudeL,ClaudeL,Claude,Loiselle,ClaudeL@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",Operations,TomT,TomT,Tom,Timmons,tomt@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",Operations,bobj,bobj,Bob,Jones,bobj@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",IT,todds,todds,Todd,Smith,todds@Bender.priv,Madison,$False,$True
+"OU=Users,OU=Madison,OU=CompanyOU,DC=Bender,DC=Priv",IT,mbadmin,mbadmin,Mike,Bender-Admin,mbadmin@Bender.priv,Chicago,$True,$False
