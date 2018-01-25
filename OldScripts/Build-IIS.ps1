@@ -5,6 +5,7 @@
 ##It will also test the running of the configuration on a remote system
 
 #Configuration Block
+
 configuration WebServerConfig {
     Import-DscResource -moduleName xSMBShare
 
